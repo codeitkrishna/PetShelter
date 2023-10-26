@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Shelter Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="header">
+
+    <a href="#" class="logo">My Shelter Home</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+    <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="login-form" name="myForm" onsubmit="return(validate())">
+        <h3>Sign In</h3>
+        <input type="text" name="uname" placeholder="enter your username" id="uname" class="box" required> <br>
+                    <p id="fname" style="font: 50;color: red;"></p>
+        <input type="email" name="" placeholder="enter your email" id="email" class="box" required>
+                    <p id="email" style="font: 50;color: red;"></p>
+        <input type="password" name="password1" placeholder="enter your password" id="" class="box" required>
+        <input type="password" name="password2" placeholder="re-enter your password" id="" class="box" required>
+                    <p id="pswd" style="font: 50;color: red;"></p>
+        
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">Remember Me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <div class="links">
+            <input type="submit" value="Sign Up" class="btn">
+        </div>
+    </form>
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3> <span>Hi</span>, Let's adopt!</h3>
+        <a href="#about" class="btn">Let's explore.</a>
+    </div>
+
+    <img src="image/bottom_wave.png" class="wave" alt="">
+
+</section>
+
+<section class="about" id="about">
+    <div class="image">
+        <img src="image/pet3.png" alt="" style="margin-right: 0%;">
+    </div>
+
+
+    <div class="content">
+        <h3>Join Us!</h3>
+        <p>We, are a group of young animal lovers who dedicatedly work towards finding home for our cute and lovely paws.</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+
+   
+</section>
+
+<div class="about-adopt">
+    <div class="content">
+        <h3>Why is<span> adopting</span> pets better than buying?</h3>
+        <p>You Will Indirectly NOT Be Supporting Animal Cruelty! <br>
+            When you buy a dog or rabbit from a pet store, you're actually supporting the cruel puppy mills that are 
+            literally “breeding factories” that put profits way before the welfare of those harmless animals.</p>
+    </div>
+
+    <div class="image">
+        <img src="image/abt.png" alt="">
+    </div>
+
+</div>
+
+<div class="about-health">
+
+    <div class="image">
+        <img src="image/Pet1.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Why do we need<span> pet care</span>?</h3>
+        <p>They help us gain a sense of responsibility, show us unconditional love, and are always there when we need them. <br>
+            Dogs are more high maintenance but bring many different health benefits, whereas cats, <br>
+            rabbits and gerbils are easy to look after, need little exercise and give our lives new meaning and purpose.</p>
+    </div>
+
+</div>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> Our <span>Services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-dog"></i>
+            <h3>Dog boarding</h3>
+            <a href="dogsInHouse.html" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-cat"></i>
+            <h3>Cat boarding</h3>
+            <a href="catsInHouse.html" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Health care</h3>
+            <a href="vetAroundUs.html" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+    <div class="image">
+        <img src="image/hero_contact.png" alt="">
+    </div>
+
+    <form action="">
+        <h3>Contact Us</h3>
+        <input type="text" placeholder="your name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="number" placeholder="your contact number" class="box">
+        <textarea name="" placeholder="send message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+</section>
+
+<section class="footer">
+
+    <img src="image/top_wave.png" alt="">
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
